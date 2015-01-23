@@ -1,0 +1,8 @@
+URL: http://codejam.sci.website/challenge/1
+
+(A) Flat Array
+An array is said to be nested if it contains at least one array as an element. Implement an algorithm with a function/method that takes in a nested array and gives the number of arrays and number of elements as in the form (A, E) as output where A is the number of arrays and E is the number of elements.
+
+(B) The Queens Problem
+Implement an algorithm to find the number of ways that k queens in a k by k   chessboard can be arranged such that they don’t attack each other. Find how many ways the queens can be arranged when k is 12
+(Hint: Queens attack in all directions)
