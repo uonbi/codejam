@@ -1,0 +1,12 @@
+URL: http://codejam.sci.website/2015/01/week-1/
+
+##Challenge A: (Divisibility Sum)
+The numbers below 100 that are divisible by all primes below 7 are:
+30, 60 and 90. Their sum is 180.
+Find the sum of all odd  numbers below 100,000 that are divisible by all primes p for 2<p<10
+[source: Project Euler]
+
+##Challenge B : (Sci Big Pow)
+3 and 2 are the highest powers of 2 and 3 respectively that can give a result less than 10 i.e  2^3(8), 3^2(9).  We shall call these highest powers scibigpow. The product of the factorials of these scibigpow is 3! * 2! = 12.
+Find the last 12 digits of the product of the factorials of the scibigpow of all numbers below 1000 that give a result  less than the largest prime below 2 million
+Note: (1^n = 1 and therefore we don’t include 1 in the range of numbers)
