@@ -7,13 +7,13 @@ Status:...COMPLETED
 
 """
 
-calls, nested = 1, 0
+calls = 1
 flat_list = []
 
 def flatten_list(my_list):
-  '''Flattens a nested array and gives the number of arrays
-  present as well as the number of elements'''
-  global calls, nested
+  '''Flattens a nested array and returns (A, E) where A is the number of elements
+  present and E is the number of arrays/lists found'''
+  global calls
   if type(my_list) is not list:
     raise TypeError("flatten_list() expects a list. {} given ".format(type(my_list)))
   elif type(my_list) is list:
@@ -23,10 +23,10 @@ def flatten_list(my_list):
         #check if elements inside list is a list
         if type(inner_elem) is list and len(inner_elem) is not 0:
           calls += 1
-          nested += 1
           flatten_list(inner_elem)
         else:
           flat_list.append(inner_elem)
     else: return "Empty list."
-  return (len(flat_list)+nested, calls)
+  return ( (len(flat_list) + (calls - 1)), calls)
 
+print(flatten_list(["Denis", ["Array"], ["3"], 4, 7, 8]))
