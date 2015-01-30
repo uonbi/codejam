@@ -19,18 +19,14 @@ def flatten_list(my_list):
   elif type(my_list) is list:
     #check if list is null
     if len(my_list) is not 0:
-      for i, num_one in enumerate(my_list):
+      for i, inner_elem in enumerate(my_list):
         #check if elements inside list is a list
-        if type(num_one) is list and len(num_one) is not 0:
+        if type(inner_elem) is list and len(inner_elem) is not 0:
           calls += 1
           nested += 1
-          flatten_list(num_one)
+          flatten_list(inner_elem)
         else:
-          flat_list.append(num_one)
+          flat_list.append(inner_elem)
     else: return "Empty list."
   return (len(flat_list)+nested, calls)
-  
 
-if __name__ == "__main__":
-  name = ["JAMES", "MOSES", ["HOW", "WHAT", "WHERE", ["BOND", "KURIA"]], ["Here"]]
-  print(flatten_list(name))
