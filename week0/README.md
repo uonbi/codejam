@@ -1,4 +1,4 @@
-++++week 0 - challenges approach++++
+{week 0 - challenges approach}
 ================
 	CHALLENGE A
 	(a). Create a function that receives a nested array or list.
