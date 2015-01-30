@@ -1,6 +1,6 @@
 {week 0 - challenges approach}
 ================
-	CHALLENGE A
+	CHALLENGE A (implemented in python (wk0_chall_A.py))
 	(a). Create a function that receives a nested array or list.
 	(b). If the list is empty, return the None
 	(c). otherwise append the elements of the bigger list/array to another empty array/list iff the element 			     is not a list/array.
