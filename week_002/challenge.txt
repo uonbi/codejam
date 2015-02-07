@@ -1,0 +1,16 @@
+URL: http://codejam.sci.website/2015/02/week-2/
+
+Challenge A: (Permuted Multiples)
+It can be seen that the number, 125874, and its double, 251748, contain exactly   the same digits, but in a different order.
+Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain the same digits.
+[Source: Project Euler( problem 52)]
+
+Challenge B: (Cubic permutations)
+The cube, 41063625 (3453), can be permuted to produce two other cubes:  56623104 (3843) and 66430125 (4053). In fact, 41063625 is the smallest cube which has exactly three permutations of its digits which are also cube.
+Find the largest cube for which exactly five permutations of its digits are cube.
+[Source: Project Euler(modified) problem 62]
+
+Challenge C: (Fibonacci word )
+The word a4z47 makes a Fibonacci word sum of 1 + 5 + 196418 + 5 + 21 = 196450  by replacing all the alphabets with their equivalent positions in the alphabetical chart and taking their Fibonacci equivalent for example f is equivalent to 6 and Fibonacci(6) is 13.
+The file hexa.txt contains over 6000 words. Find the total Fibonacci word sum in the file.(Right click on the file and click Save Link As…)
+[Source: Sci CodeJam Team]
