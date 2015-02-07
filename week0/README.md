@@ -1,5 +1,5 @@
-#week 0 - challenges approach
-================
+#Week 0 - challenges approach
+
 CHALLENGE A (implemented in python (wk0_chall_A.py))
 
 * Create a function that receives a nested array or list.
