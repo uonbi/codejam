@@ -19,8 +19,11 @@ Challenge C:
 
 *Get the largest prime below 2 billion
  	{
+ 	
  		Create a simple function to check if a number is prime:
+ 		
  		{
+ 		
  			fn(num):
  			 if num is 1: Not prime
  			 if num % 2 is 0: check if num is 2, if so, num is prime
@@ -29,10 +32,14 @@ Challenge C:
  			  if num % start is 0: not prime
  			  start += 2#increment by hops of two
  			 if by any chance the condition of the loop is not met, then num is prime
+ 			 
  		}
+ 		
  		get the largest prime by decrementing, to fasten the process since the largest prime below 2 billion,
  		is closer to 2 billion than to 1
+ 		
  	}
+ 	
 *Loop from 2...1000 (since 1^n is 1)
 *Initialize power to 2 and get the result = n^power
 *If result is less than the largest prime, increment power by 1
