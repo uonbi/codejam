@@ -1,16 +1,16 @@
 { challenge approach }
 =======================================
 Challenge A:
- (a): loop from 1...10,000 as you check if a number is divisible by both 7 and 11
- (b): If (a) above is true, add that number to a counter. 
- (c): Repeat the above two process till 10,000
- (d): Return the sum of the divisible numbers found
+(a): loop from 1...10,000 as you check if a number is divisible by both 7 and 11
+(b): If (a) above is true, add that number to a counter. 
+(c): Repeat the above two process till 10,000
+(d): Return the sum of the divisible numbers found
 
 Challenge B:
- (a): Find the LCM of all primes >2 but <10
- (b): Loop through numbers 1...100,000
- (c): Only do a check for odd numbers. i.e Check if a number is odd and that it is divisible by the LCM in (a)
- (d): Return the sum of all the numbers
+(a): Find the LCM of all primes >2 but <10
+(b): Loop through numbers 1...100,000
+(c): Only do a check for odd numbers. i.e Check if a number is odd and that it is divisible by the LCM in (a)
+(d): Return the sum of all the numbers
 
 Challenge C:
  (a): Get the largest prime below 2 billion
