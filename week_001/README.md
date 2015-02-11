@@ -1,5 +1,6 @@
 { challenge approach }
 =======================================
+
 Challenge A:
 (a): loop from 1...10,000 as you check if a number is divisible by both 7 and 11
 (b): If (a) above is true, add that number to a counter. 
