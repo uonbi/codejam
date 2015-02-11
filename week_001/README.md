@@ -18,6 +18,7 @@ Challenge B:
 Challenge C:
 
 *Get the largest prime below 2 billion
+
  	{
  	
  		Create a simple function to check if a number is prime:
@@ -41,13 +42,19 @@ Challenge C:
  	}
  	
 *Loop from 2...1000 (since 1^n is 1)
+
 *Initialize power to 2 and get the result = n^power
+
 *If result is less than the largest prime, increment power by 1
+
 *if result is greater than the largest prime, then
+
   	{
+  	
   		~Decrement power by one(This will give a result that is less than the largest prime)
   		~get the factorial of the power and get it product with the already initialized product.
   		~reset power to 2 ready for next iteration
+  		
   	}
 
 *Finally, get the last 12 digits of the resultant product. Result % (10^12). This will give the 
