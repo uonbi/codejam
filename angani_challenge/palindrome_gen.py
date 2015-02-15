@@ -18,7 +18,7 @@ def is_palindrome(string):
 	#return true if the string and it's reverse are the same
 	return (string == string[::-1])
 
-def palindrome(str_len):
+def palindrome_generator(str_len):
 	#filters return generators. Generators can only be used once
 	x, z = filter(is_palindrome, ["".join(i) for i in product(chars, repeat=str_len)]), \
 	filter(is_palindrome, ["".join(i) for i in product(chars, repeat=str_len)])
