@@ -15,11 +15,13 @@ Challenge A(Permuted multiples)
 	using the sorting explained above
 
 	Return n that satisfies the conditions
+
+	Implementation :: wk_2_chall_A.py
 }
 
 Challenge B
 
 {
 
-	
+
 }
