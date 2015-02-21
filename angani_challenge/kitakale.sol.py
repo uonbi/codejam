@@ -16,7 +16,7 @@ def is_palindrome(string):
 	return (string == string[::-1])
 
 def valid_key(key):
-	'''Cheks if a key is valid for the main door'''
+	'''Checks if a key is valid for the main door'''
 	key = str(key)
 	pair_flag = 0
 	if key == key[::-1]:
@@ -49,7 +49,7 @@ def is_a_valid_key(key):
 				return True
 		return False
 
-def keys(key_bag):
+def keys(key_bag):#permutations
 	'''Returns the number of keys that can open the main door'''
 	assert type(key_bag) is str
 	key_count = 0
@@ -72,11 +72,11 @@ def keys(key_bag):
 
 	#return the smallest fractions. This corresponds to the probability of picking
 	#the right key to the main door
-	fraction = str(fractions.Fraction(key_count, len(every_key)))
+	probability = str(fractions.Fraction(key_count, len(every_key)))
 	
-	return (key_count, fraction)
+	return (key_count, probability)
 
-def find_keys(key_bag):
+def find_keys(key_bag):#quick logic
 	'''Returns the number of keys that can open the main door'''
 	assert type(key_bag) is str
 	key_count = 0
@@ -99,9 +99,9 @@ def find_keys(key_bag):
 
 	#return the smallest fractions. This corresponds to the probability of picking
 	#the right key to the main door
-	fraction = str(fractions.Fraction(key_count, len(every_key)))
+	probability = str(fractions.Fraction(key_count, len(every_key)))
 	
-	return (key_count, fraction)
+	return (key_count, probability)
 	
 
 def read_file(file_name):
