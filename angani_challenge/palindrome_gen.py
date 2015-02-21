@@ -8,7 +8,6 @@ __version__ = "1.0.0"
 
 from itertools import product
 
-
 chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
 def is_palindrome(string):
@@ -36,10 +35,9 @@ def palindrome_generator(str_len):
 			with open(file_name, "a") as challenge_file:
 				challenge_file.write('"' + y + '", ')
 		elif count == pali_len:
-			with open("angani_chall.txt", "a") as challenge_file:
+			with open(file_name, "a") as challenge_file:
 				challenge_file.write('"' + y + '"')
 				return "Palindromes written to '{}'".format(file_name), count
 
-
 if __name__ == "__main__":
-	print(palindrome(5))
+	print(palindrome_generator(5))
