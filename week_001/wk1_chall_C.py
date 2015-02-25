@@ -26,7 +26,7 @@ def scibigpow(limit, base_limit):
 		else:
 			power += 1
 
-	return (str(product)[49:70])#50th to the 70th numbers
+	return (str(product)[0:12])#50th to the 70th numbers
 		
 		
 
