@@ -5,8 +5,8 @@ Evaluate the product of all the amicable numbers under 10000.
 
 Challenge B (Circular primes)
 The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
-There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97. The Fibonacci equivalent is Fibonacci(13) = 377
-Find the Fibonacci equivalent of circular primes below one million.
+There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, and 97. Starting with 1 and 2 for the Fibonacci series, the Fibonacci equivalent for circular primes below 100 is  Fibonacci(13) = 377
+Find the Fibonacci equivalent for circular primes below one million.
 [source: {project euler}(modified)]
 
 Challenge C
