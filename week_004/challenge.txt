@@ -1,0 +1,17 @@
+CHALLENGE A
+	An irrational decimal fraction is created by concatenating the positive integers:
+	0.123456789101112131415161718192021…
+	It can be seen that the 12th digit of the fractional part is 1.
+	If dn represents the nth digit of the fractional part,  and F(dn)  to be the nth factorial number, find the value of the following expression
+	F(d1 ) × F( d10 ) × F( d100) × F( d1000) × F( d10000) × F( d100000) × F( d1000000)
+
+
+CHALLENGE B
+	The number 3797 has an interesting property. Being prime itself, it is possible to continuously remove digits from left to right, and remain prime at each stage: 3797, 797, 97, and 7. Similarly we can work from right to left: 3797, 379, 37, and 3.
+	Find the product of the only eleven primes that are both truncatable from left to right and right to left.
+	NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
+
+
+CHALLENGE C
+	We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once. For example, 2143 is a 4-digit pandigital and is also prime.
+	Find the largest n-digit pandigital prime that exists. What is the product of the digits of this pandigital prime?
