@@ -3,21 +3,21 @@
 
 Challenge A:
 
-*loop from 1...10,000 as you check if a number is divisible by both 7 and 11
-*If (a) above is true, add that number to a counter. 
-*Repeat the above two process till 10,000
-*Return the sum of the divisible numbers found
+* loop from 1...10,000 as you check if a number is divisible by both 7 and 11
+* If (a) above is true, add that number to a counter. 
+* Repeat the above two process till 10,000
+* Return the sum of the divisible numbers found
 
 Challenge B:
 
-*Find the LCM of all primes >2 but <10
-*Loop through numbers 1...100,000
-*Only do a check for odd numbers. i.e Check if a number is odd and that it is divisible by the LCM in (a)
-*Return the sum of all the numbers
+* Find the LCM of all primes >2 but <10
+* Loop through numbers 1...100,000
+* Only do a check for odd numbers. i.e Check if a number is odd and that it is divisible by the LCM in (a)
+* Return the sum of all the numbers
 
 Challenge C:
 
-*Get the largest prime below 2 billion
+* Get the largest prime below 2 billion
 
  	{
  	
@@ -41,13 +41,13 @@ Challenge C:
  		
  	}
  	
-*Loop from 2...1000 (since 1^n is 1)
+* Loop from 2...1000 (since 1^n is 1)
 
-*Initialize power to 2 and get the result = n^power
+* Initialize power to 2 and get the result = n^power
 
-*If result is less than the largest prime, increment power by 1
+* If result is less than the largest prime, increment power by 1
 
-*if result is greater than the largest prime, then
+* if result is greater than the largest prime, then
 
   	{
   	
@@ -57,5 +57,5 @@ Challenge C:
   		
   	}
 
-*Finally, get the last 12 digits of the resultant product. Result % (10^12). This will give the 
+* Finally, get the last 12 digits of the resultant product. Result % (10^12). This will give the 
   	last 12 digits.
